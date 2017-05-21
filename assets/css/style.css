@@ -6,3 +6,113 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+
+*{
+	margin: 0px; 
+
+}
+img {
+	filter: grayscale(100%);
+}
+
+.top {
+	margin: 0px;
+	height: 250px;
+	box-sizing: border-box;
+	align-content: center;
+	color: white;
+	text-align: right;
+	background-color: #F78E69;
+	font-family: 'Raleway', sans-serif;
+}
+h1{
+	padding: 70px 40px 20px 20px;
+	font-size: 60px;
+}
+p{
+	padding: 20px 40px 20px 20px;
+	font-size: 20px;
+}
+.elemento1{
+	border-bottom: 30px solid #F78E69;
+}
+#foto1 {
+	background-image: url(../img/uno.jpg);
+	background-position: center;
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-color: green;
+	filter: grayscale(100%);
+}
+.texto{
+	box-sizing: border-box;
+	height: 400px;
+	width: 100%;
+	background-color: #ABE188;
+}
+#textillo{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 500px;
+    padding: 30px;
+	background-color: #F78E69;
+	height: 300px;
+	width: 400px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+.elemento2{
+	border-bottom: 30px solid #F78E69;
+	border-top: 30px solid #F78E69;
+}
+#foto2 {
+	background-image: url(../img/dos.jpg);
+	background-position: center;
+	height: 900px;
+	width: 100%;
+	background-size: cover;
+	background-color: green;
+	filter: grayscale(100%);
+}
+.elemento3{
+	height: 400px;
+	width: 100%;
+	background-color: #ABE188;
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	text-align: center;
+}
+#foto3 {
+	align-content: center;
+    height: auto;
+    float: center; 
+	filter: grayscale(100%);
+
+}
+#uno, #dos,#tres,#cuatro{
+	box-sizing: padding-box;
+	float: center; 
+	border: 7px solid white;
+	margin: 10px;
+}
+.elemento4{
+	border-bottom: 10px solid #F78E69;
+}
+#foto4 {
+	background-image: url(../img/tres.jpg);
+	background-position: center;
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-color: green;
+	filter: grayscale(100%);
+}
+h3{
+	background-color: #F78E69;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: right;
+	padding: 20px 40px 20px 20px;
+}
