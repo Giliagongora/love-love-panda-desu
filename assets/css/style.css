@@ -46,22 +46,29 @@ p{
 	filter: grayscale(100%);
 }
 .texto{
-	box-sizing: border-box;
-	height: 400px;
+	
+	height: 450px;
 	width: 100%;
 	background-color: #ABE188;
 }
 #textillo{
+	border-top: 30px solid #ABE188;
+	box-sizing: content-box;
 	margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 150px;
-    margin-left: 500px;
+    margin-left: 400px;
     padding: 30px;
 	background-color: #F78E69;
 	height: 300px;
-	width: 400px;
+	width: 500px;
 	font-family: 'Raleway', sans-serif;
 	color: white;
+}
+h4{
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
 }
 .elemento2{
 	border-bottom: 30px solid #F78E69;
@@ -98,7 +105,7 @@ p{
 	margin: 10px;
 }
 .elemento4{
-	border-bottom: 10px solid #F78E69;
+	border-top: 20px solid #F78E69;
 }
 #foto4 {
 	background-image: url(../img/tres.jpg);
