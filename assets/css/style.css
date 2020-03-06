@@ -46,24 +46,26 @@ p{
 	filter: grayscale(100%);
 }
 .texto{
-	
-	height: 450px;
-	width: 100%;
-	background-color: #ABE188;
+    min-height: 550px;
+    width: 100%;
+    background-color: #ABE188;
+    position: relative;
 }
 #textillo{
-	border-top: 35px solid #ABE188;
-	box-sizing: content-box;
-	margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 150px;
-    margin-left: 400px;
+/*border-top: 35px solid #ABE188; */
+    margin-top: 0px;
     padding: 30px;
-	background-color: #F78E69;
-	height: 300px;
-	width: 500px;
-	font-family: 'Raleway', sans-serif;
-	color: white;
+    background-color: #F78E69;
+    height: max-content;
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 30px;
+    bottom: 30px;
 }
 h4{
 	text-align: center;
@@ -75,16 +77,18 @@ h4{
 	border-top: 30px solid #F78E69;
 }
 #foto2 {
-	background-image: url(../img/dos.jpg);
-	background-position: center;
-	height: 900px;
-	width: 100%;
-	background-size: cover;
-	background-color: green;
-	filter: grayscale(100%);
+    background-image: url(../img/dos.jpg);
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 0;
+    background-position: center;
 }
 .elemento3{
-	height: 400px;
+	height: auto;
 	width: 100%;
 	background-color: #ABE188;
 	font-family: 'Raleway', sans-serif;
@@ -93,10 +97,9 @@ h4{
 }
 #foto3 {
 	align-content: center;
-    height: auto;
-    float: center; 
+    height: auto; 
 	filter: grayscale(100%);
-
+	padding-bottom: 40px;
 }
 #uno, #dos,#tres,#cuatro{
 	box-sizing: padding-box;
